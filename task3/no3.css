@@ -1,0 +1,28 @@
+#left{
+	width: 200px;
+	float: left;
+}
+#right{
+	width:120px;
+	float: right;
+}
+#left,#center,#right{
+	border: 1px solid #999;
+	
+	padding: 20px;
+}
+#center{
+	margin-right: 140px;
+	margin-left: 220px;
+}
+#main{
+	border: 1px solid #999;
+	background: #eee;
+	height: 80%;
+	padding: 20px;
+}
+.pic{
+	width:100px;
+	height: 60px;
+    margin: 10px;
+}
