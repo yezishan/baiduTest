@@ -1,6 +1,19 @@
 #left{
 	width: 200px;
 	float: left;
+	height: 120px;
+}
+#logo{
+	width: 80px;
+	height: 80px;
+	padding: 20px;
+}
+#info{
+	
+   position: absolute;
+	left: 140px;
+	top: 50px;
+
 }
 #right{
 	width:120px;
@@ -9,20 +22,24 @@
 #left,#center,#right{
 	border: 1px solid #999;
 	
-	padding: 20px;
 }
 #center{
 	margin-right: 140px;
 	margin-left: 220px;
+	padding: 20px;
 }
 #main{
+	margin: 0 auto;
 	border: 1px solid #999;
 	background: #eee;
 	height: 80%;
 	padding: 20px;
 }
 .pic{
-	width:100px;
-	height: 60px;
-    margin: 10px;
+	width:80px;
+	height: 80px;
+    padding: 20px;
+}
+h1{
+	text-align: center;
 }
