@@ -1,0 +1,47 @@
+table{
+	text-align: center;
+	margin: 0 auto;
+	width: 550px;
+	height: 550px;
+	background: #aaa;
+}
+td{
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	/* border: 1px solid #aaa; */
+}
+.inputs{
+	width: 550px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 30px;
+}
+input{
+	width: 150px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #aaa;
+	margin-right: 10px;
+}
+button{
+	background: lightblue;
+	border: none;
+	width: 60px;
+	height: 30px;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+button:hover{
+    background: blue;
+    color: #fff;
+}
+.left{
+	background: red;
+}
+.left div{
+	background: blue;
+	width: 15px;
+	height: 100%;
+}

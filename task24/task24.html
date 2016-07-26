@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task_24</title>
+	<style>
+		.root {
+			display: flex;
+			padding: 20px;
+			width: 90%;
+			height: 300px;
+    		border: 2px solid gray;
+			margin: 20px auto;
+			margin-bottom: 10px;
+			justify-content: space-between;
+		}
+		div {
+    		border: 2px solid gray;
+    		display: -webkit-flex;
+    		display: -ms-flexbox;
+    		display: flex;
+    		margin: 20px 10px;
+    		-webkit-flex-grow: 1;
+    		-ms-flex-positive: 1;
+    		flex-grow: 1;
+    		transition: background-color 1000ms;
+       }
+		
+		input {
+			margin-left: 100px;
+			width: 150px;
+			height: 40px;
+			font-size: 20px;
+			text-align: center;
+			background: pink;
+			border-radius: 5px;
+		}
+	</style>
+</head>
+<body>
+	<div class="root" id="box-container">Super
+		<div class="lev1">
+			car
+			<div class="lev2">
+				Apple
+				<div class="lev3">
+					peer
+				</div>
+				<div class="lev3">
+					Pig
+				</div>
+				<div class="lev3">
+					Colo
+				</div>
+				<div class="lev3">
+					Soccer
+				</div>
+			</div>
+			<div class="lev2">
+				Phone
+			</div>
+			<div class="lev2">
+				<div class="lev3">
+					Book
+				</div>
+				<div class="lev3">
+					School
+				</div>
+			</div>
+		</div>
+		<div class="lev1">
+			Note	
+			<div class="lev2">
+				Human
+				<div class="lev3">
+					Code
+				</div>
+				<div class="lev3">
+					Man
+				</div>
+				<div class="lev3">
+					Operate
+				</div>
+			</div>	
+			<div class="lev2">
+				Program
+				<div class="lev3">
+					Boment
+					<div class="lev4">
+						Cot
+					</div>
+				</div>
+				<div class="lev3">
+					Class
+				</div>
+			</div>		
+		</div>
+		<div class="lev1">
+			Flash
+		</div>
+	</div>
+	<input type="button" value="深度优先遍历">
+	<input type="button" value="广度优先遍历">
+
+	<br>
+	<br>
+	<input type="button" value="删除选中节点">
+	<input type="text" id="tag">
+	<input type="button" value="在选中节点下添加节点">
+
+<script type="text/javascript" src="task24.js"></script>
+</body>
+</html>

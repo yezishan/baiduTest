@@ -1,0 +1,36 @@
+.main{
+	font-size: 20px;
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+}
+
+input{
+	border: 1px solid #a8a8a8;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+label{
+	margin: 20px;
+	font-size: 20px;
+}
+#display1{
+	margin: 40px;
+}
+#display2{
+	margin: 40px;
+	display: none;
+}
+
+span{
+	font-size: 25px;
+}
+select{
+	width: 150px;
+	height: 30px;
+}
+#display2 input{
+	width: 150px;
+	height: 30px;
+}
+

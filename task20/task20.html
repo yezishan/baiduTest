@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Task 20</title>
+  <style>
+    #result div {
+      margin: 10px;
+      padding: 5px;
+      background-color: red;
+      text-align: center;
+      float: left;
+      color: white;
+      font-weight: bold;
+    }
+    .select {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <textarea id="input"></textarea>
+    <button id="left-in">左侧入</button>
+    <button id="right-in">右侧入</button>
+    <button id="left-out">左侧出</button>
+    <button id="right-out">右侧出</button>
+    <input id="search-text" />
+    <button id="search">查询</button>
+  </div>
+  <div id="result"></div>
+  <svg width="350" height="160">
+  <g class="layer" transform="translate(60,10)">
+    <circle r="5" cx="0"   cy="105" />
+    <circle r="5" cx="90"  cy="90"  />
+    <circle r="5" cx="180" cy="60"  />
+    <circle r="5" cx="270" cy="0"   />
+
+    <g class="y axis">
+      <line x1="0" y1="0" x2="0" y2="120" />
+      <text x="-40" y="105" dy="5">$10</text>
+      <text x="-40" y="0"   dy="5">$80</text>
+    </g>
+    <g class="x axis" transform="translate(0, 120)">
+      <line x1="0" y1="0" x2="270" y2="0" />
+      <text x="-30"   y="20">January 2014</text>
+      <text x="240" y="20">April</text>
+    </g>
+  </g>
+</svg>
+ <script type="text/javascript" src="task20.js"></script>
+</body>
+</html>
